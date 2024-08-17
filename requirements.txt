@@ -1,0 +1,13 @@
+fastapi
+langchain 
+chromadb
+uuid
+uvicorn
+langchain_groq
+python-dotenv
+streamlit
+langchain_community 
+langchain_chroma
+sentence_transformers
+langchain-huggingface
+pypdf
