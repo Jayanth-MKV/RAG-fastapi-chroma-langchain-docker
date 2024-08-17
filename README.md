@@ -18,7 +18,7 @@
 
 The API provides several endpoints for interacting with the application. You can access the detailed API documentation via Postman. To get started:
 
-1. **API DOCS**: check `api-documentation.pdf` file 
+1. **API DOCS**: check `api-documentation.pdf` file
 2. **API Endpoints**:
 
 - **Process Document**
@@ -52,50 +52,51 @@ Ensure you have the following installed:
 - pip (Python package manager)
 - Docker (for containerized setup)
 
+### Clone
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Jayanth-MKV/RAG-fastapi-chroma-langchain-docker.git
+
+cd myapp
+```
+
 ### Setting Up a Virtual Environment
 
 It is recommended to use a virtual environment to manage dependencies for your project. Here’s how you can set one up:
 
 1. Navigate to your project directory:
-    
-    ```bash
-    cd myapp
-    
-    ```
-    
+
+   ```bash
+   cd myapp
+
+   ```
 2. Create a virtual environment:
-    
-    ```bash
-    python3 -m venv venv
-    
-    ```
-    
+
+   ```bash
+   python3 -m venv venv
+
+   ```
 3. Activate the virtual environment:
-    - On macOS and Linux:
-        
-        ```bash
-        source venv/bin/activate
-        
-        ```
-        
-    - On Windows:
-        
-        ```bash
-        .\\venv\\Scripts\\activate
-        
-        ```
-        
+
+   - On macOS and Linux:
+
+     ```bash
+     source venv/bin/activate
+
+     ```
+   - On Windows:
+
+     ```bash
+     .\\venv\\Scripts\\activate
+
+     ```
 4. Once activated, your terminal should show the virtual environment name, indicating that you are working inside the virtual environment.
 
 ### Installation
 
-1. Clone the repository:
-
-   ```bash
-   git clone <url>
-   cd myapp
-   ```
-2. Install the required Python packages:
+1. Install the required Python packages:
 
    ```bash
    pip install -r requirements.txt
@@ -131,11 +132,15 @@ To set up and run the application using Docker, follow these steps:
 
 ## Potential Improvements
 
-- **Authentication**: Implement user authentication and authorization to secure endpoints.
-- **Error Handling**: Enhance error handling mechanisms for better API responses.
-- **Logging**: Introduce logging to track application activities and errors.
-- **Testing**: Add unit and integration tests to ensure code reliability.
-- **Scalability**: Consider optimizing the application for performance and scalability.
+- User authentication and authorization to secure endpoints.
+- Adding different formats of data + adding connectors to drive, notion, dropbox, etc..
+- Improving file handling and storing.
+- Add unit and integration tests to ensure code reliability. Also the stress test.
+- Scaling Vector Database like quadrant/pinecone
+- Implementing the rag evaluation pipeline
+- Experimenting differnt embedding models and parameters
+- Combining traditional rag with graph db - hybrid rag improves the results
+- Agentic approach to encounter hallucinations
 
 ## Contributing
 
