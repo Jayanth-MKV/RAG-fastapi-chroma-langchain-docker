@@ -6,6 +6,7 @@ uvicorn
 langchain_groq
 python-dotenv
 streamlit
+torch
 langchain_community 
 langchain_chroma
 sentence_transformers
