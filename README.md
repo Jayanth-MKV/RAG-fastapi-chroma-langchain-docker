@@ -102,9 +102,10 @@ It is recommended to use a virtual environment to manage dependencies for your p
    pip install -r requirements.txt
    ```
 2. ENV Setup
+   create a .env file and replace the api key
 
    ```
-   GROQ_API_KEY = "..."
+   GROQ_API_KEY = "api-key-here"
    ```
 
    You can get this from [https://console.groq.com/keys](https://console.groq.com/keys "https://console.groq.com/keys")
