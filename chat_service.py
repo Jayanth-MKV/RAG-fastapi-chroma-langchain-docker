@@ -17,7 +17,7 @@ class ChatInput(BaseModel):
 
 class MessageInput(BaseModel):
     chat_id: str= Field(..., example="cf7a10e6-1343-4d08-a522-a0e850634d01")
-    message: str= Field(..., example="Hello, how can I assist you?")
+    message: str= Field(..., example="Give project guidelines")
 
 class ChatService:
     def __init__(self, document_service):
