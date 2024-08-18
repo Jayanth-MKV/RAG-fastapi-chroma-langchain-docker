@@ -101,6 +101,13 @@ It is recommended to use a virtual environment to manage dependencies for your p
    ```bash
    pip install -r requirements.txt
    ```
+2. ENV Setup
+
+   ```
+   GROQ_API_KEY = "..."
+   ```
+
+   You can get this from [https://console.groq.com/keys](https://console.groq.com/keys "https://console.groq.com/keys")
 
 ### Running the Application
 
