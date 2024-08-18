@@ -1,5 +1,4 @@
---find-links https://download.pytorch.org/whl/torch_stable.html
-torch==2.4.0+cpu
+torch==2.4.0
 fastapi
 langchain 
 chromadb
@@ -10,6 +9,6 @@ python-dotenv
 streamlit
 langchain_community 
 langchain_chroma
-sentence_transformers
+sentence-transformers==3.0.1
 langchain-huggingface
 pypdf
