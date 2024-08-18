@@ -59,7 +59,7 @@ Clone the repository:
 ```bash
 git clone https://github.com/Jayanth-MKV/RAG-fastapi-chroma-langchain-docker.git
 
-cd myapp
+cd RAG-fastapi-chroma-langchain-docker
 ```
 
 ### Setting Up a Virtual Environment
@@ -69,13 +69,13 @@ It is recommended to use a virtual environment to manage dependencies for your p
 1. Navigate to your project directory:
 
    ```bash
-   cd myapp
+   cd RAG-fastapi-chroma-langchain-docker
 
    ```
 2. Create a virtual environment:
 
    ```bash
-   python3 -m venv venv
+   python -m venv venv
 
    ```
 3. Activate the virtual environment:
@@ -89,7 +89,7 @@ It is recommended to use a virtual environment to manage dependencies for your p
    - On Windows:
 
      ```bash
-     .\\venv\\Scripts\\activate
+     ./venv/Scripts/activate
 
      ```
 4. Once activated, your terminal should show the virtual environment name, indicating that you are working inside the virtual environment.
