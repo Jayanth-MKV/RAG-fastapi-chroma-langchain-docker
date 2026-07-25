@@ -2,7 +2,7 @@
 
 # Advanced RAG Cookbooks
 
-**Three practical retrieval projects spanning vector similarity, local Ollama RAG, and a document-chat API with a Streamlit client.**
+**Practical retrieval and knowledge-assistance projects for building grounded AI experiences.**
 
 [![Python](https://img.shields.io/badge/Python-projects-3776AB?logo=python&logoColor=white)](#project-catalog)
 [![Jupyter](https://img.shields.io/badge/Jupyter-notebooks-F37626?logo=jupyter&logoColor=white)](book-recommender-vector-similarity)
@@ -13,7 +13,7 @@
 
 ## What is it?
 
-This repository is a collection of independent Retrieval-Augmented Generation experiments, not one installable package. Each directory has its own dependencies, runtime assumptions, and data path.
+This repository is a collection of independent retrieval and knowledge-assistance experiments, not one installable package. Each directory has its own dependencies, runtime assumptions, and data path.
 
 The projects cover a notebook-driven book recommender, a local Llama 3 assistant backed by PostgreSQL/pgvector, and a FastAPI + Chroma document-chat service with a Streamlit UI.
 
