@@ -17,6 +17,8 @@ This repository is a collection of independent retrieval and knowledge-assistanc
 
 The projects cover a notebook-driven book recommender, a local Llama 3 assistant backed by PostgreSQL/pgvector, and a FastAPI + Chroma document-chat service with a Streamlit UI.
 
+Individual retrieval stacks and interfaces may change as the collection grows; the lasting focus is grounded retrieval, knowledge access, and inspectable AI assistance.
+
 ## Project catalog
 
 | Project | Interface | Retrieval / model path | Evidence in the repository |
